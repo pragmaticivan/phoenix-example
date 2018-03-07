@@ -1,3 +1,6 @@
 {
-  "id": "webapp"
+  "id": "phoenix",
+  "healthCheck": {
+    "url": "localhost"
+  }
 }
