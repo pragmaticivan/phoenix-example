@@ -61,4 +61,5 @@ config :logger, level: :info
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
-import_config "prod.secret.exs"
+config :elixir_example, ElixirExampleWeb.Endpoint,
+  secret_key_base: "cZ2bljGMaFiG9vTsAO3uhDYP+kksQ9HC+GYEkhN3RA+2hc18JnHtHdpehMJh+D8b"
