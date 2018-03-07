@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="minimum-scale=1.0, width=device-width" name="viewport">
+  <link rel="stylesheet" href="https://cdn.wedeploy.io/fonts/Circular-Std.css">
+  <title>My elixir app is live!</title>
+  <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+</head>
+<body>
+  <div class="container">
+    <%= render @view_module, @view_template, assigns %>
+  </div>
+  <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+</body>
+</html>

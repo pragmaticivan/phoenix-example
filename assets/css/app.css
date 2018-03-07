@@ -1,0 +1,30 @@
+/* This file is for your main application css. */
+
+body {
+  font-family: 'Circular Std', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.container {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+h1 {
+  color: rgb(14,20,26);
+  font-size: 46px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin: 6px 0 0;
+}
+h2 {
+  color: rgba(14,20,26,.8);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin: 12px 0 0;
+}
